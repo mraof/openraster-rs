@@ -135,7 +135,7 @@ pub struct Stack {
     pub visibility: Option<Visibility>,
     pub composite_op: Option<CompositeOp>,
     pub isolation: Option<Isolation>,
-    /// Vec for both <layer> and <stack> to preserve order
+    /// Vec for both `<layer>` and `<stack>` to preserve order
     pub sub: Vec<Sub>,
 }
 
